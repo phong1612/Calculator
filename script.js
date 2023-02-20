@@ -24,7 +24,12 @@ function handleNumber(valueString) {
         pressed = false;
     }
     if(buffer === "0") {
-        buffer = valueString;
+        if(valueString === ".") {
+            buffer += valueString;
+        }
+        else {
+            buffer = valueString;
+        }
     }
     else 
     {
