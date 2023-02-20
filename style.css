@@ -116,7 +116,3 @@ body {
 .double {
     flex-basis: 47%;
 }
-.calc-buttons {
-    border: 1px solid;
-    border-radius: 16px;
-}
